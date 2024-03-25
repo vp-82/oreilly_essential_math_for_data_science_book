@@ -17,4 +17,4 @@ slope_2 = slope_f.subs(x, 2)
 # infinitely approach step size _s_ to 0
 result = limit(slope_2, s, 0)
 
-print(result) # 4
+print(result)  # 4

@@ -19,4 +19,4 @@ n_rectangles = Sum(delta_x * fx_i, (i, 1, n)).doit()
 # of rectangles "n" to infinity
 area = limit(n_rectangles, n, oo)
 
-print(area) # prints 4/3
+print(area)  # prints 4/3

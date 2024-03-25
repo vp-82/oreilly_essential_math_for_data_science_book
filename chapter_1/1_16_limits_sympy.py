@@ -4,4 +4,4 @@ x = symbols('x')
 f = 1 / x
 result = limit(f, x, oo)
 
-print(result) # 0
+print(result)  # 0

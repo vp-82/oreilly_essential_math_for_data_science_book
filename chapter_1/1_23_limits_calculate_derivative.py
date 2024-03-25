@@ -14,4 +14,4 @@ slope_f = (f.subs(x, x + s) - f) / ((x+s) - x)
 # infinitely approach step size +s+ to 0
 result = limit(slope_f, s, 0)
 
-print(result) # 2x
+print(result)  # 2x

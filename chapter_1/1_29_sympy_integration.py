@@ -10,4 +10,4 @@ f = x**2 + 1
 # for the area between x = 0 and 1
 area = integrate(f, (x, 0, 1))
 
-print(area) # prints 4/3
+print(area)  # prints 4/3

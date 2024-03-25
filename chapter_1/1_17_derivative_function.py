@@ -6,6 +6,7 @@ def derivative_x(f, x, step_size):
 def my_function(x):
     return x**2
 
+
 slope_at_2 = derivative_x(my_function, 2, .00001)
 
-print(slope_at_2) # prints 4.000010000000827
+print(slope_at_2)  # prints 4.000010000000827

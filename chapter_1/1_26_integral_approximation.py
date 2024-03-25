@@ -8,9 +8,11 @@ def approximate_integral(a, b, n, f):
 
     return total_sum * delta_x
 
+
 def my_function(x):
     return x**2 + 1
 
+
 area = approximate_integral(a=0, b=1, n=5, f=my_function)
 
-print(area) # prints 1.33
+print(area)  # prints 1.33

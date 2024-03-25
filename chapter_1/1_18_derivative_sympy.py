@@ -8,4 +8,4 @@ f = x**2
 
 # Calculate the derivative of the function
 dx_f = diff(f)
-print(dx_f) # prints 2*x
+print(dx_f)  # prints 2*x
